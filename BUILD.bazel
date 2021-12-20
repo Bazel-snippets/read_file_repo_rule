@@ -1,0 +1,6 @@
+load("do_nothing.bzl", "do_nothing_rule")
+
+do_nothing_rule(
+    name = "do_nothing",
+    target = "@read_file_repo//:test_target",
+)
